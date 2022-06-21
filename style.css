@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  padding-top: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #aaaaaa;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 120px;
+}
+.display_1 {
+  /* border-top-width: 4px; */
+  min-height: 40px;
+  height: auto;
+  /* padding: 10px; */
+  border: 2px solid grey;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.result {
+  text-align: end;
+}
+#operator {
+  padding: 3px;
+  border: 2px solid #dddddd;
+  width: 100%;
+  margin-bottom: 4px;
+}
+.number1 {
+  width: 100%;
+  padding: 3px;
+  border: 2px solid #dddddd;
+  margin-bottom: 5px;
+}
+.number1:focus,
+.number2:focus {
+  outline: unset;
+}
+.number2 {
+  width: 100%;
+  padding: 3px;
+  margin-bottom: 2px;
+  border: 2px solid #dddddd;
+}
+
+.header {
+  border: 4px;
+  color: #aaaaaa;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 6px;
+  background-color: #eee;
+}
+
+.calcBtn {
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  background-color: rgb(146, 146, 146);
+  border: 2px solid #dddddd;
+  margin-top: 10px;
+  transition: 0.5s;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  border: unset;
+}
+.calcBtn:hover {
+  background: rgb(90, 90, 90);
+}
